@@ -80,13 +80,16 @@ a:hover {
     float: left;
     width: 300px;
     height: 200px;
-    padding: 20px;
+    margin: 10px;
+    /* padding: 20px; */
     text-align: center;
     color: white;
 }
 
-.hangText .rpgText .triviaText {
+.portText {
     position: absolute;
+    width: 100%;
+    padding: 10px 0px;
     background-color: #4aaaa5;
     bottom: 30px;
 }
@@ -101,6 +104,11 @@ p {
 img {
     float: left;
     padding: 20px;
+}
+
+.portImg {
+    padding: 0px;
+    height: 100%;
 }
 
 footer {
